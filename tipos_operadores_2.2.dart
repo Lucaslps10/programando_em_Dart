@@ -37,7 +37,17 @@ void main() {
     };
     print("Listando as frutas:");
     print(frutas.keys);
-    print("Valor da banana: " + frutas['Banana']);
+    print("Valor da banana: ${frutas['Banana']}");
+
+    var conjunto = <String> {'1', '2', '3', '2'};
+    var comprimento = conjunto.length;
+    print("Valor do conjunto: $conjunto");
+    print("Comprimento do conjunto: $comprimento");
+
+    dynamic valor = 20;
+    print("Variável dinâmica inteira: $valor");
+    valor = "Hello";
+    print("Mudando o valor para String: $valor");
 
     
 }
