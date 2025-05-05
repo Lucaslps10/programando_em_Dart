@@ -1,15 +1,43 @@
 void main() {
     int idade = 28;
+    print("Idade: $idade");
+
     double altura = 1.75;
+    print("Altura: $altura");
+
     String animalEstimacao = "Jubileu";
+    print("Animal de estimação: $animalEstimacao");
+
     bool acenderLampada = false;
-    int valor1 = 10, valor2 = 20;
-    var valor3 = valor1 + valor2;
-    var resto = valor1 % valor2;
+    print("Lâmpada ligada: $acenderLampada");
+
+    int a = 10, b = 20;
+    var soma = a + b;
+    print("$a, $b, Soma: $soma");
+
+    var resto = a % b;
+    print("Resto da divisão entre 'a' e 'b': $resto");
+
     double compra = 100.00;
-    var compraComDesconto = 100*(10/100);
+    var compraComDesconto = compra - compra * (10/100);
+    print("Compra: $compra \nCompra com desconto de 10%: $compraComDesconto");
 
     String celular = "Vivo V50";
     int preco = 2800;
     print("Um celular $celular custa em média $preco;");
+
+    var nomeCidades = ["Picuí", "Carnaúba", "Nova Palmeira"];
+    print("Segunda cidade da lista: " + nomeCidades[1]);
+
+    var frutas = {
+        'Maçã' : 3.0,
+        'Banana' : 8.0,
+        'Uva' : 10.0,
+        'Laranja' : 1.0
+    };
+    print("Listando as frutas:");
+    print(frutas.keys);
+    print("Valor da banana: " + frutas['Banana']);
+
+    
 }
