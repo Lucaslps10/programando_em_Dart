@@ -40,6 +40,7 @@ void main() {
     print("Valor da banana: ${frutas['Banana']}");
 
     var conjunto = <String> {'1', '2', '3', '2'};
+ 
     var comprimento = conjunto.length;
     print("Valor do conjunto: $conjunto");
     print("Comprimento do conjunto: $comprimento");
@@ -49,5 +50,12 @@ void main() {
     valor = "Hello";
     print("Mudando o valor para String: $valor");
 
+    // Usando a idade da questão anterior;
+    String validacao_idade;
+    validacao_idade = idade < 18 ? "Menor de idade" : "Maior de idade";
+    print(validacao_idade);
+
+    String variabel;
+    
     
 }
