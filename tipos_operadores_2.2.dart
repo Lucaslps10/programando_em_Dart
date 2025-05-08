@@ -55,7 +55,16 @@ void main() {
     validacao_idade = idade < 18 ? "Menor de idade" : "Maior de idade";
     print(validacao_idade);
 
-    String variabel;
-    
+    String? nome;
+    String nomePadrao = "Não informado";
+    String nomeCompleto = nome ?? nomePadrao;
+    print(nomeCompleto);
+
+  
+    final pi = 3.14;
+    print(pi);
+
+    pi = 4;
+    print(pi);
     
 }
