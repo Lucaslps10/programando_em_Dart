@@ -18,4 +18,14 @@ class Carro{
   set ano(int valor){
     _ano = valor;
   }
+
+  void calcular_idade(int ano_atual){
+    int idade_carro = ano_atual - ano;
+    print("O carro tem $idade_carro anos;");
+
+  }
+  void mostrar_carro(){
+    print("Marca: $_marca, Modelo: $_modelo, Ano: $_ano");
+  }
 }
+

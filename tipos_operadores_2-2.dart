@@ -63,8 +63,8 @@ void main() {
   
     final pi = 3.14;
     print(pi);
-
-    pi = 4;
+/*
+    pi = 4; // Valor que gera um erro;
     print(pi);
-    
+*/
 }
